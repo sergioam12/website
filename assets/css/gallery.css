@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.gallery{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+    border: 1px solid black;
+}
+
+/*-- IMAGES ---*/
+
+.thumbnail{
+  background-color: rgb(200,200,200);
+  background-size: cover;
+  background-position: center;
+
+}
+.img-1{
+  background-image: url('img/1.jpg');
+}
