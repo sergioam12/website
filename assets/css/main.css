@@ -1965,7 +1965,7 @@ input, select, textarea {
 				content: '';
 				display: block;
 				height: 2px;
-				margin: 0.75em auto 0 auto;
+				margin: 0.55em auto 0 auto;
 				position: relative;
 				width: 4em;
 			}
@@ -2269,10 +2269,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.profile-pic {
-				background-image: url("../images/serg.JPG");
-				border-radius: 50%;
-				display: block;
+			.profile-pic{
+			    width: 250px;
+			    height: auto;
+			    border: 1px solid transparent;
+			    border-radius: 100%;
+					padding-bottom: 2rem;
+			}
+			.profilepic-center{
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: 50%;
 			}
 
 /* List */
@@ -2843,9 +2851,9 @@ input, select, textarea {
 			}
 
 		#header .container {
-			background: rgba(255, 255, 255, 0.95);
+			/*---background: rgba(255, 255, 255, 0.95);*/
 			bottom: 0;
-			left: 27.8%;
+			left: 25.76%;
 			margin-left: -17.5em;
 			padding: 2.5em;
 			position: absolute;
@@ -3188,13 +3196,14 @@ input, select, textarea {
 .gallery-section{
   width: 100%;
   padding: 20px 0;
+  /*background: #f1f1f1;*/
 }
 
 .inner-width{
   width: 75%;
   max-width: 1200px;
   margin: auto;
-  padding: 0 10px;
+  padding: 0px;
 }
 
 .gallery-section h1{
@@ -3212,7 +3221,7 @@ input, select, textarea {
 
 .gallery-section .gallery{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
 }
 
@@ -3228,9 +3237,7 @@ input, select, textarea {
   transition: 0.4s;
 }
 
-.gallery-section .image:hover img{
-  transform: scale(1.4);
-}
+
 .gallery-section .video{
   flex: 25%;
   overflow: hidden;
@@ -3244,6 +3251,10 @@ input, select, textarea {
 }
 
 .gallery-section .video:hover img{
+  transform: scale(1.4);
+}
+
+.gallery-section .image:hover img{
   transform: scale(1.4);
 }
 
